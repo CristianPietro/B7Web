@@ -1,0 +1,30 @@
+body{
+  margin: 50px;
+  font-size: 17px;
+}
+
+table{
+  width: 600px;
+
+}
+
+table thead{
+  background-color: pink;
+}
+
+table tbody{
+  background-color: rgb(106, 169, 169);
+  text-align: center;
+}
+
+tbody td{
+  border-bottom: 2px solid pink;
+ }
+
+ tbody tr:nth-child(even):hover{
+  background-color: pink;
+ }
+
+tbody tr:hover{
+  background-color: rgb(8, 238, 238);
+}
