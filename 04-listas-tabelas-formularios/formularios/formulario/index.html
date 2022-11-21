@@ -15,11 +15,14 @@
 
     <form action="page/login.html" method="get">
 
-        <input type="text" name="usuario" placeholder="Name">
+        <label for="name">Nome Completo:</label>
+        <input type="text" name="usuario" placeholder="Name" id="name">
         <br>
-        <input type="email" name="Email" placeholder="Email">
+        <label for="email">Email:</label>
+        <input type="email" name="Email" id="email" placeholder="Email">
         <br>
-        <input type="password" placeholder="Password">
+        <label for="senha">Password:</label>
+        <input type="password" id="senha" placeholder="Password">
         <br>
         <input type="checkbox" placeholder="Checkbox">
         <br>
@@ -42,7 +45,19 @@
         <input type="number">
         <br>
         <input type="range">
+        <br>
 
+        <!--  -->
+
+        <select name="order" id="ordem">
+            <option value="bestseller">mais vendidos</option>
+            <option value="last" selected>Recentes</option>
+        </select>
+        <br>
+
+        <!--  -->
+
+        <textarea name="descricao" id="text"></textarea>
 
     </form>
 
@@ -55,6 +70,8 @@
     POST - As informações serão enviadas internamente
     GET - As informações vão aparecer na url
 
-    
-
  -->
+
+ <!-- 
+    Sempre colocar  um name, caso contrario não sera enviado no formulario
+  -->
