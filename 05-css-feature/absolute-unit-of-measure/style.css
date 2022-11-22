@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+}
+
+.container{
+  width: 300px;
+  height: 300px;
+  background-color: #ffc0cb;
+}
+
+/* *
+  - UNIDADES DE MEDIDAS ABSOLUTAS NÃO SOFREM IINTERFEFÊNCIAS POR OUTROS ELEMENTOS NO DOCUMENTO
+*/
+
+
+/*
+ A unidade PX  vai ser sempre o memo tamanho idependente de outros elementos no nosso documento
+  */
+
+  /* 
+  A unidade PX é um pouco maior que os pixels da tela do cumputador
+  */
+
+  /* 
+  A unidade de medida PT, é mais usada par fonts, e geralmente usadas quando ela for imprimida em um papel
+  */
+
+  /* 
+  POLEGADADAS -  É representada por IN
+  */
+
+  /* 
+  CENTIMETROS - É representado por CM
+  */
+
+  /* 
+  MILIMETRO - É  representado por MM
+  */

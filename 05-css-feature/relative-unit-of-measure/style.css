@@ -1,0 +1,11 @@
+.box{
+  color: white;
+  background-color: #999;
+  font-size: 50px;
+}
+
+
+
+.box h1{
+  font-size: inherit;
+}
