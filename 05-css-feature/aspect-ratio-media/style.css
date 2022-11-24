@@ -1,0 +1,17 @@
+
+/* MESMA LARGURA E TAMANHO */
+
+@media (aspect-ratio: 1/1){
+  body{
+    background-color: pink;
+  }
+}
+
+
+/* A largura equivale a 4 e a altura tem que ser o dobro do tamanho da altura */
+
+@media (aspect-ratio: 4/2){
+  body{
+    background-color: pink;
+  }
+}

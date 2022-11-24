@@ -1,0 +1,25 @@
+body{
+  display: flex;
+}
+
+div{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+}
+
+/* Orizontal */
+
+@media (orientation: landscape){
+  body{
+    flex-direction: row;
+  }
+}
+
+/* Vertical */
+
+@media (orientation: portrait){
+  body{
+    flex-direction: column;
+  }
+}
