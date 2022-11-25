@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+
+}
+
+.exemplo{
+  background-color: pink;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  animation: exemplo 4s 10s infinite;
+  transition: all .5s linear;
+}
+
+@keyframes exemplo{
+  0%{
+    background-color: blueviolet;
+    top: 0;
+    left: 0;
+  }
+  25%{
+    background-color: aqua;
+    top: 0px;
+    left: 200px;
+  }
+  50%{
+    background-color: tomato;
+    top: 200px;
+    left: 200px;
+  }
+  75%{
+    background-color: teal;
+    top: 200px;
+    left: 0px;
+  }
+  100%{
+    background-color: cornflowerblue;
+    top: 0px;
+    left: 0px;
+  }
+}
