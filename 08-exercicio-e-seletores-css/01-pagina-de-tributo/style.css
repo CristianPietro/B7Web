@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightgrey;
+  
+}
+
+/* *
+- HEADER
+*/
+
+
+.header-container{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.banner h1, q{
+margin-bottom: 20px;
+}
+
+.banner q{
+  display: block;
+  font-style: italic;
+}
+
+.red,
+.yellow,
+.green{
+  width: 100%;
+  height: 2px;
+}
+
+.red{
+  background-color: red;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.green{
+  background-color: green;
+}
+
+/* *
+- HEADER - NAVEGATION
+*/
+
+nav{
+  width: 100%;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 5px;
+}
+
+nav ul a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 10px 20px;
+}
+
+/* *
+- BOB PHOTO
+*/
+
+#profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section .image-bob{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 100%;
+}
+
+
+section .image-bob img{
+  border-radius: 100%;
+  width: 300px;
+  height: auto;
+}
+
+section .vida-morte{
+ text-align: center;
+ margin-top: 10px;
+ font-size: 20px;
+margin-bottom: 30px;
+}
+
+/* *
+- BIOGRAPHY
+*/
+
+section #biography{
+  margin-top: 100px;
+}
+
+
+#biography h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.biography-text{
+  margin: 20px auto;
+  width: 50%;
+  text-align: justify;
+}
+
+footer{
+  background-color: whitesmoke;
+  margin-top: 100px;
+  text-align: center;
+}
+
+footer p{
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+
