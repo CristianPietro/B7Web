@@ -1,0 +1,11 @@
+body{
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div{
+  background-color: rgba(200, 254, 21, 0.61);
+  width: 300px;
+  height: 300px;
+}
