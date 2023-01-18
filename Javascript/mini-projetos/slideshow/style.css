@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-slide{
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    background-color: black;
+    margin: 20vh auto;
+    border: 10px;
+    box-shadow: 0 20px 30px black;
+}
+
+.container-items{
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    background-color: rebeccapurple;
+}
+
+.item{
+    width: 50vw;
+    height: 50vh;
+}
+
+.item img{
+    width: 50vw;
+    height: 50vh;
+}
+
+.action-button{
+
+}
